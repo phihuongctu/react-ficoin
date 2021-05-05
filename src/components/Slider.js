@@ -39,7 +39,7 @@ const Sliders = () => {
   ];
 
   return (
-    <section className="slider">
+    <section className="slider mb-4">
       <Carousel breakPoints={breakPoints}>
         {items.map((item, index) => (
           <Item key={index}>
